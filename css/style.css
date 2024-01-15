@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+.hide {
+  display: none;
+}
+
+.universe {
+
+  background-image: url('../assets/mountains-universe-2.png');
+}
+
+.exploration {
+  background-image: url('../assets/mountains-universe-3.png');
+}
+
+
+body{
+  font-family: 'Roboto', sans-serif;
+      background-image: url(../assets/mountains-universe-1\ 1.png);
+      background-repeat: no-repeat;
+      background-position: top center;
+      background-size: 100% 100%;
+      font-size: 1.rem;
+      height: 100vh;
+      
+
+
+}
+
+
+.container{
+  display: flex;
+width: 1280px;
+height: 122px;
+padding: 40px 719px 40px 72px;
+align-items: center;
+
+}
+
+.container ul{
+  display: flex;
+  gap: 32px;
+
+}
+
+
+nav a {
+    color: #C4C4CC;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.2rem;
+    transition: all .3s;
+    text-decoration: none;
+
+}
+nav a:hover {
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+
+/* Home */  
+
+.home-wrapper{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 24px;
+
+}
+
+.home{
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 170px;
+  height: 100%;
+  gap: 24px;
+}
+.home h1{
+color:  #E1E1E6;
+font-family: Roboto;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 125%;
+}
+
+
+.btn-1{
+display: inline-flex;
+padding: 12px 32px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border-radius: 5px;
+border: 2px solid #FFF;
+text-decoration: none;
+color: white;
+transition: all 0.6s ease-in-out;
+}
+
+.btn-1:hover{
+  transform: scale(1.5);
+}
+
+
+
+/* ============ Universe/Exploration Page =============== */
+
+.universe-page, 
+.exploration-page{
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 102px;
+  max-width: 700px;
+  height: 100%;
+  justify-content: center;
+  gap: 1.7rem;
+}
+
+
+.universe-page h1, 
+.exploration-page h1 {
+  font-size: 4.8rem;
+}
+
+
+.universe-page p, 
+.exploration-page p {
+  margin-top: 1.6rem;
+  font-size: 1.8rem;
+  max-width: 64.8rem;
+}
+
+
+
